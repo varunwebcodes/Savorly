@@ -1,0 +1,10 @@
+ @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
+@import "tailwindcss";
+
+@theme{
+  --font-unbounded: "Unbounded", "sans-serif";
+}
+*{
+    box-sizing: border-box;
+}
+

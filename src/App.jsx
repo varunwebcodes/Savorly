@@ -3,17 +3,20 @@ import { Route, Routes } from 'react-router-dom'
 import MealDetails from './pages/MealDetails'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <>
+    <div className=''>
     <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/:mealid' element={<MealDetails/>} />
       </Routes>
+
+      <Footer/>
    
-    </>
+    </div>
   )
 }
 

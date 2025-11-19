@@ -4,8 +4,8 @@ const MealCard = ({detail}) => {
   if (!detail || detail.length === 0) return null;
 
   return (
-    <div className=''>
-      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full">
+    
+      <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 w-full pb-64">
         {detail.map((meal) => (
           <div
             key={meal.idMeal}
@@ -32,7 +32,6 @@ const MealCard = ({detail}) => {
           </div>
         ))}
       </div>
-    </div>
   );
 }
 

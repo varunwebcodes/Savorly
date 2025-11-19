@@ -117,7 +117,7 @@ const MealDetails = () => {
                                 </p>
                             </div>
 
-                            <div className="mt-6 flex flex-wrap gap-3">
+                            <div className="mt-6 flex flex-wrap gap-3 pb-55">
                                 {info?.strYoutube && (
                                     <a
                                         href={info.strYoutube}
